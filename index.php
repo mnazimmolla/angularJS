@@ -6,8 +6,8 @@
 </head>
 <body>
 	<div>
-		<input type="text" name="" ng-model="name"> <?php // declareing angular js model?>
-		<h3>{{ name }}</h3> <?php // declareing angular js expression?>
+		<input type="text" name="" ng-init="firstname='John'"> <?php // declareing angular js init directive?>
+		<h3>{{ firstname }}</h3> <?php // declareing angular js expression?>
 	</div>
 	<script type="text/javascript">
 		
