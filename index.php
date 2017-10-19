@@ -7,7 +7,7 @@
 <body>
 	<div>
 		<input type="text" name="" ng-model="name"> <?php // declareing angular js model?>
-		<h3 ng-bind="name"></h3> <?php // declareing angular js bind directive?>
+		<h3> {{ 6+6 }} </h3> <?php // using regular expression in angular?>
 	</div>
 	<script type="text/javascript">
 		
