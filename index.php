@@ -7,11 +7,13 @@
 <body>
 	<div ng-controller="myController"> <?php // declareing angular js controller?>
 		<p>{{ name }}</p>
+		<p>{{ age }}</p>
 	</div>
 	<script type="text/javascript">
 		var data = angular.module("myApp", []); <?php // declareing angular js module?>
 		data.controller('myController', function($scope){ <?php // working with controller?>
 			$scope.name = 'Hello World';
+			$scope.age = 25;
 		});
 	</script>
 </body>
