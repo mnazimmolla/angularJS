@@ -6,7 +6,7 @@
 </head>
 <body>
 	<div ng-init="person=[{name: 'Hasan', age: 15}, {name: 'Riaz', age: 25}, {name: 'Shipa', age: 45}]">
-		<p>{{ person[1].name }}</p><?php // working with object array in ng-init?>
+		<p ng-repeat="x in person">{{ x.name + ' ' + x.age }}</p><?php // working with ng-repeat as array object?>
 	</div>
 </body>
 </html>
