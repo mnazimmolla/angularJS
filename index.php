@@ -5,8 +5,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 </head>
 <body>
-	<div ng-init="quantity=5; cost=10">
-		{{ quantity * cost }}
-	</div> <?php // working with regular expression with ng-init?>
+	<div ng-init="person={name : 'Hasam', age : 15}">
+		{{ person.age }}
+	</div> <?php // working with object ng-init?>
 </body>
 </html>
