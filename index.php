@@ -8,7 +8,7 @@
 	<div ng-app="">
 		<input type="name" name="name" ng-model="name">
 		<p>
-			{{ name | date }}
+			{{ name | filter : 'Z' }}
 		</p>
 	</div>
 </body>
